@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>admin</title>
+	<title>Admin</title>
 	<link type="text/css" href="css/styleadmin.css" rel="stylesheet">
 </head>
 <body>
