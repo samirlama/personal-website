@@ -1,0 +1,406 @@
+*
+{
+	margin: 0;
+	padding:0;
+}
+
+.wrapper
+{
+	height:auto;
+	width:100%;
+	background:;
+
+
+}
+.wrapper .profile
+{
+	height: 643px;
+	width:100%;
+	
+	background: url("../images/Web.png");
+	background-repeat: no-repeat;
+	
+	background-position: top
+}
+.wrapper .profile .mycolor
+{
+	height: 643px;
+	width:100%;
+	background: black;
+	opacity:0.8;
+}
+
+	
+.wrapper .profile .banner
+{
+	height: 450px;
+	width: 100%;
+	opacity: 1 !important;
+	position: relative;
+	top:90px;
+	font-family: 'Space Mono', monospace;
+	
+}
+.wrapper .profile .banner .image
+{
+	height:230px;
+	width:220px;
+	background: blue;
+	margin-left:550px;
+	border:5px solid #44c7f4; 
+	max-width: 220px;
+	
+	opacity: 1 !important;
+
+}
+
+.wrapper .profile .banner h1
+{
+	text-align: center;
+	margin-right: 15px;
+	margin-top: 10px;
+	color: white;
+	
+}
+.wrapper .profile .banner p
+{
+	text-align: center;
+	margin-top: 10px;
+	color:#44c7f4;
+}
+.wrapper .profile .banner h3
+{
+	text-align: center;
+	margin-right: 15px;
+	margin-top: 20px;
+	color:white;
+}
+.wrapper .profile .banner .social-menu
+{
+	height:80px;
+	width:100%;
+	
+	margin-top: 20px;
+}
+.wrapper .profile .banner .social-menu ul
+{
+	text-align: center;
+}
+.wrapper .profile .banner .social-menu ul li
+{
+	display: inline-block;
+	padding:10px 10px 10px 0;
+
+	
+}
+.wrapper .profile .banner .social-menu ul li a i
+{
+	color: white;
+	border:2px solid white; 
+	padding:7px 13px 7px 13px;
+
+}
+.wrapper .profile .banner .social-menu ul li a i:hover
+{
+	color:blue;
+	transition: color 1s;
+}
+/*style of navbar*/
+.wrapper .navbar
+{
+	height:70px;
+	width:100%;
+	background:#44c7f4;
+	font-family: 'Space Mono', monospace;
+
+}
+.wrapper .navbar .maintag
+{
+	height: 100%;
+	width:30%;
+		float:left;
+		font-family: 'Abril Fatface', cursive;
+}
+.wrapper .navbar .maintag p
+{
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top:20px;
+}
+ 
+.wrapper .navbar .main-menu
+{
+	height: 70px;
+	width: 70%;
+	float:left;
+}
+.wrapper .navbar .main-menu ul li
+{
+	display:inline-block;
+	list-style: none;
+	margin-top:30px;
+	margin-left: 30px;
+	height: 37px;
+	width:15%;
+	
+}
+
+
+.wrapper .navbar .main-menu ul li a
+{
+	text-decoration: none;
+	padding:35px;
+	color:white;
+}
+
+.wrapper .navbar .main-menu ul li:hover
+{
+	border-bottom: 2px solid black;
+
+
+
+}
+.wrapper .navbar .main-menu ul li a:hover
+{
+	color:black;
+	transition: color 2s;
+	-webkit-transition-timing-function: linear;
+	transition-timing-function: linear;
+
+}
+
+/*style of about page*/
+.wrapper .about
+{
+	height: 593px;
+	width:100%;
+	background: white;
+}
+.wrapper .about .header-line
+{
+	height: 42px;
+	width:100%;
+	text-align: center;
+	margin-top: 50px;
+	
+	padding-top: 8px;
+	
+
+}
+.wrapper .about .few
+{
+	text-align: center;
+	margin-top:5px;
+
+}
+.wrapper .about .info
+{
+	width:80%;
+	height:450px;
+	margin: auto;
+
+	margin-top:35px;
+}
+.wrapper .about .info .images
+{
+	height:430px;
+	
+	width:35%;
+	margin-left:15px;
+	float: left;
+}
+.wrapper .about .info .images img
+{
+	height:430px;
+	width:100%;
+}
+.wrapper .about .info .bio
+{
+	height:400px;
+	
+	width:60%;
+	margin-left:35px;
+	float:left;
+	margin-top: 30px;
+}
+.wrapper .about .info .bio .job-title
+{
+	height:75px;
+	width:100%;
+	
+	box-sizing: border-box;
+	padding-top:10px;
+	border-bottom: 1px dashed #44c7f4;
+
+
+}
+.wrapper .about .info .bio .job-title p
+{
+	padding-top:7px;
+	color:#44c7f4;
+}
+
+.wrapper .about .info .bio .name
+{
+	height:75px;
+	width:100%;
+	
+	box-sizing: border-box;
+	padding-top:10px;
+	border-bottom: 1px dashed #44c7f4;
+
+
+}
+.wrapper .about .info .bio .name p
+{
+	padding-top:7px;
+	color:#44c7f4;
+
+}
+.wrapper .about .info .bio .sex
+{
+	height:75px;
+	width:100%;
+	
+	box-sizing: border-box;
+	padding-top:10px;
+	border-bottom: 1px dashed #44c7f4;
+
+
+}
+.wrapper .about .info .bio .sex p
+{
+	padding-top:7px;
+	color:#44c7f4;
+
+}
+.wrapper .about .info .bio .address
+{
+	height:75px;
+	width:100%;
+	
+	box-sizing: border-box;
+	padding-top:10px;
+	border-bottom: 1px dashed #44c7f4;
+
+
+}
+.wrapper .about .info .bio .address p
+{
+	padding-top:7px;
+	color:#44c7f4;
+
+}
+.wrapper .about .info .bio .email
+{
+	height:75px;
+	width:100%;
+	
+	box-sizing: border-box;
+	padding-top:10px;
+	border-bottom: 1px dashed #44c7f4;
+
+}
+.wrapper .about .info .bio .email p
+{
+	padding-top:7px;
+	color:#44c7f4;
+
+}
+
+
+
+/*designing login form for admin panel */
+.wrapper .login
+{
+	height:400px;
+	width:400px;
+	background: black;
+	position: relative;
+	top: 120px;
+	left: 500px;
+	opacity:0.6;
+	border-radius:10px;
+	}
+
+.wrapper .login #username,#password
+{
+	height:40px;
+	width: 300px;
+	margin-left: 49px;
+	padding-left: 40px;
+	border-radius: 5px;
+	font-size: 25px;
+	
+	
+
+}
+.wrapper .login #submit
+{
+	height:40px;
+	width: 100px;
+	margin-left: 49px;
+	
+}
+.wrapper .login #username
+{
+	margin-top:200px;
+}
+.wrapper .login #username:focus,#password:focus
+{
+	
+	color:#b9b9b9;
+	border:3px solid black;
+}
+.wrapper .login #userimage
+{
+	position:relative;
+	bottom:150px;
+	left:55px;
+}
+.wrapper .login #passimage
+{
+	position:relative;
+	bottom:95px;
+	left:20px;
+}
+.wrapper .login #submit
+{
+	border-radius: 5px;
+	
+	cursor:pointer;
+}
+.wrapper .login #submit:hover
+{
+	border:3px solid #b9b9b9;
+}	 
+
+
+/*styling services */
+.wrapper .services
+{
+	height:500px;
+	width:80%;
+	background: red;
+	margin:auto;
+	box-sizing: border-box;
+	padding-top:20px;
+}
+.wrapper .services h2,p
+{
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
